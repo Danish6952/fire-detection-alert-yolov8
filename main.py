@@ -5,7 +5,7 @@ import smtplib
 from email.message import EmailMessage
 from datetime import datetime
 
-# === 📦 Model Configuration ===
+# ===  Model Configuration ===
 MODEL_PATH = "best.pt"  # Replace with your YOLOv8 .pt file
 CONF_THRESHOLD = 0.6  # Strict detection confidence
 DETECTION_CLASSES = ['fire', 'smoke', 'spark', 'flame']
